@@ -16,9 +16,13 @@ export const Products = () => {
   return (
     <div className="product-list container-mid mt-8 mb-8 grid place-items-center place-self-center  md:grid-cols-4">
         {
-            filteredProducts?.map(product=>(
+            filteredProducts.length > 0 ? (
+              filteredProducts?.map(product=>(
                 <ProductCard key={product.id} product={product}/>
             ))
+            ):(
+              <h3 className='text-2xl text-gray-500 '>No products found...</h3>
+            )
         }
         </div>
   )
