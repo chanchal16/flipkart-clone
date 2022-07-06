@@ -5,9 +5,14 @@ const filterContext = createContext();
 const initialFilterState = {
     sortBy:'',
     products:[],
-    brands:['Tokyo Talkies','Harpa','HighLander','Raymond'],
-    sizes:['S','M','L','XL'] ,
-    gender:['male','female'] 
+    brands:[],
+    sizes:{
+      S: false,
+    M: false,
+    L: false,
+    xl: false,
+    } ,
+    gender:[] 
 }
 const FiltersContextProvider = ({children}) => {
 const [filterState, filterDispatch] = useReducer(filterReducer, initialFilterState);
