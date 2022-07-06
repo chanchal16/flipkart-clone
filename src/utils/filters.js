@@ -7,7 +7,7 @@ const getSortedProducts = (products,sortBy)=>{
     }
     return products
   }
-  // by category
+  // by brand
   const getFliteredByBrands = (sortedproducts,brands) => {
       let filteredlist = sortedproducts;
       if (brands.length !== 0) {
@@ -17,17 +17,19 @@ const getSortedProducts = (products,sortBy)=>{
     };
 
     const getFilteredBySizes = (sortedproducts,sizes)=>{
-        let filteredlist = sortedproducts;
-        if(sizes.length!==0){
-            filteredlist = filteredlist.filter(item=>sizes.includes(item.size))
-        }
+        return sortedproducts.filter((product) =>
+            Object.values(sizes)?.some((sizeValue) => sizeValue)
+            ? product.size?.some((size) => sizes[size])
+            : product
+        );
     }
-    // by ratings
+    // by gender
     const getFilteredByGender = (sortedproducts,gender)=>{
-    //   if(rating){
-        return sortedproducts.filter(item=>item.gender === gender)
-    //   }
-    //   return sortedproducts
+      let filteredlist = sortedproducts;
+      if (gender.length !== 0) {
+        filteredlist = filteredlist.filter((item => gender.includes(item.gender)))
+      }
+      return filteredlist;
     }
   
     export {getSortedProducts,getFilteredByGender,getFliteredByBrands,getFilteredBySizes}
