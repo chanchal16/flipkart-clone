@@ -8,7 +8,7 @@ export const Navbar = () => {
         <div className="app-container flex items-center md:justify-between p-3.5  text-lg">
             <div className='flex gap-6 w-3/4'>
                 <p className="text-xl text-white hover:text-yellow-300">
-                    Ecart
+                    Flipkart
                 </p>
                 <input type='search' className='w-3/4' />
             </div>
