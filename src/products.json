@@ -1,0 +1,74 @@
+[
+    {
+        "id":1,
+        "name": "Casual Regular Sleeves",
+        "price": "1420",
+        "size": ["M","L","XL"],
+        "brand": "Tokyo Talkies",
+        "gender": "female",
+        "imgsrc":"https://rukminim1.flixcart.com/image/800/960/ky4qgsw0/top/s/g/d/xl-294tk155-selvia-original-imagaffwqnd4hyp3.jpeg?q=50"
+    },
+    {
+        "id":2,
+        "name": "Printed Casual Shirt",
+        "price": "520",
+        "size": ["S","M"],
+        "brand": "Harpa",
+        "gender": "female",
+        "imgsrc":"https://rukminim1.flixcart.com/image/800/960/l4pxk7k0/shirt/a/r/o/xs-2-clio-original-imagfk8fde9rdgdj.jpeg?q=50"
+    },
+    {
+        "id":3,
+        "name": "Checkered Casual Shirt",
+        "price": "400",
+        "size": ["S","L","XL"],
+        "brand": "HighLander",
+        "gender": "male",
+        "imgsrc":"https://rukminim1.flixcart.com/image/800/960/kovsvbk0/shirt/b/q/t/s-ts-shirt1029-tanip-original-imag38a3fen3wmv7.jpeg?q=50"
+    },
+    {
+        "id":4,
+        "name": "Polo neck T-shirt",
+        "price": "1325",
+        "size": ["S","M","L","XL"],
+        "brand": "Raymond",
+        "gender": "male",
+        "imgsrc":"https://rukminim1.flixcart.com/image/452/542/kjuby4w0/t-shirt/k/4/3/s-t18-nb-seven-rocks-original-imafzbfbw3rcdgrs.jpeg?q=50"
+    },
+    {
+        "id":5,
+        "name": "casual sleeveless top",
+        "price": "320",
+        "size": ["S","M","L","XL"],
+        "brand": "Tokyo Talkies",
+        "gender": "female",
+        "imgsrc":"https://rukminim1.flixcart.com/image/800/960/kp036vk0/top/y/w/f/xs-qetop27-quintessentials-original-imag3bb3zvwnxpyf.jpeg?q=50"
+    },
+    {
+        "id":6,
+        "name": "Typography T-shirt",
+        "price": "650",
+        "size": ["S","L"],
+        "brand": "Harpa",
+        "gender": "female",
+        "imgsrc":"https://rukminim1.flixcart.com/image/800/960/kzu6efk0/t-shirt/5/i/i/l-faith-yellow-base-41-original-imagbrdj8bguvrex.jpeg?q=50"
+    },
+    {
+        "id":7,
+        "name": "Checkered formal shirt",
+        "price": "750",
+        "size": ["S","M","L"],
+        "brand": "Raymond",
+        "gender": "male",
+        "imgsrc":"https://rukminim1.flixcart.com/image/452/542/l4pxk7k0/shirt/w/b/l/xxl-shirt-ss-2355-n-s-enterprises-original-imagfjsfegjtrzhn.jpeg?q=50"
+    },
+    {
+        "id":8,
+        "name": "Spread collor T-shirt",
+        "price": "600",
+        "size": ["M","XL"],
+        "brand": "HighLander",
+        "gender": "male",
+        "imgsrc":"https://rukminim1.flixcart.com/image/452/542/kyrlifk0/t-shirt/0/u/s/l-tdgyblhenful-d37-tripr-original-imagax9x6pkgwwg9.jpeg?q=50"
+    }
+]
